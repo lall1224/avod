@@ -1,0 +1,57 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Training artifacts (do not publish)
+outputs/
+*.pth
+*.pt
+*.ckpt
+wandb/
+runs/
+logs/
+*.log
+
+# Local / private data (never commit)
+data/
+datasets/
+features/
+features_v2/
+*.npy
+*.npz
+*.mp4
+*.avi
+*.mkv
+*.wav
+*.mp3
+
+# Synthetic smoke outputs (regenerate with examples/)
+examples/synthetic/
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials*.json
+**/api_key*
